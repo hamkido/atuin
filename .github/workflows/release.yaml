@@ -8,10 +8,6 @@ on:
   push:
 
 jobs:
-  qemu:
-    runs-on: ubuntu-latest
-    steps:
-      -
 
   build:
     name: ${{ matrix.job.os }} (${{ matrix.job.target }})
